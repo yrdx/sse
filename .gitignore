@@ -1,31 +1,57 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+ctionscript template
+# Build and Release Folders
+bin/
+bin-debug/
+bin-release/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Other files and folders
+.settings/
 
-### IntelliJ IDEA ###
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+### Ada template
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+### Example user template template
+### Example user template
+
+# IntelliJ project files
 .idea
-*.iws
 *.iml
-*.ipr
+out
+gen### Maven template
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+### Java template
+*.class
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-### VS Code ###
-.vscode/
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+*.log
+
+# Created by .ignore support plugin (hsz.mobi)
