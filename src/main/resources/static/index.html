@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Insert title here</title>
+      <script type="text/javascript">
+        var source = new EventSource('sse/get_data');
+        source.onmessage = function (event) {
+          document.getElementById('result').innerText = event.data
+        };
+      </script>
+        </head>
+  <body>
+  <div>xdclass test</div>
+  <div id="result"></div>
+  </body>
+</html>
